@@ -82,20 +82,3 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
- # Suggested fix for Heroku user sign up error from Jordan H via stackoverflow
-  #  http://stackoverflow.com/questions/4114835/heroku-devise-missing-host-to-link-to-please-provide-host-parameter-or-set-d
-  
-  config.action_mailer.default_url_options = { :host => 'enterpriseape-roy.herokuapp.com' }
- 
-  #Add this below to fix error
-  
-ActionMailer::Base.smtp_settings ={ 
-  :address             =>   'smtp.sendgrid.net',
-  :port                =>   '587',
-  :authentication      =>   :plain,
-  :user_name           =>    'app33280176@heroku.com',
-  :password            =>    't8qpdh8x',
-  :domain              =>    'heroku.com',
-  :enable_starttls_auto =>   true
-  }
-ActionMailer::Base.delivery_method = :smtp
