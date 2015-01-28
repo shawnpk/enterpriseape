@@ -6,24 +6,21 @@ Powerful software
 
 ### Welcome to the repository
 
-Feel free to access [my portfolio](http://portfolio.example.com).
+Build a production level applications, completely from scratch, using the Ruby on Rails development framework
 
-> ## Etiam pulvinar sollicitudin gravida
->
-> Curabitur porta auctor elit, id varius nibh eleifend non. Vestibulum eleifend felis est, in aliquet mauris egestas quis. Praesent varius tortor quis libero venenatis, in auctor sem scelerisque.
->
-> Mauris viverra maximus arcu ac *viverra*.
 
-Mauris viverra maximus arcu ac **viverra**.
+### Some of the key skills I used in this project:
 
-### Crazy good software 
-* Rapid development
-+ Tested
-- 24/7 support
+- Rails scaffold generators
+- How to use git repositories
+- Building custom file uploaders and downloaders
+- Database modeling and query generation
+- Creating and handling form data for input into the database
+- Setting up secure user logins
+- Building a search engine for the app
+- HTML and CSS customization
+- How to use the Rails console
+- How to deploy the application to a live website
+- How the Model - View - Controller (MVC) framework works in action
+- Object oriented programming (OOP)
 
-### Reasons to choice us
-1. Price
-2. Precision
-3. Performance
-
-This is wat Ruby code would look like ` puts 'Hello World' `
